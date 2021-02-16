@@ -5,20 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="icon" href="assets/smavodev_logo.png" />
     <link rel="stylesheet" href="assets/styles.css" />
-    <sergey-import src="metas/titles">Inicio | Smavodev</sergey-import>
+    <sergey-import src="metas/titles">Blog | Smavodev</sergey-import>
 </head>
 
 <body>
-    <h1>Pruebas en el SSG SERGEY</h1>
+    <h1>Post 1</h1>
     <sergey-import src="header" />
     <!-- <img src="assets/smavodev_logo.png" alt="smavodev"> -->
-    <main>
-        <h1>Welcome!</h1>
-        <p>Our page content.</p>
-    </main>
+    <sergey-import src="blog.md" as="markdown" />
+
 </body>
 
 </html>
