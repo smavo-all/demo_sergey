@@ -1,0 +1,15 @@
+{
+  "name": "proyecto_sergey",
+  "version": "1.0.0",
+  "description": "Primeros pasos con el SSG Sergey",
+  "main": "index.html",
+  "dependencies": {
+    "sergey": "0.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Villagomez",
+  "license": "MIT"
+}
