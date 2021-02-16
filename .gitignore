@@ -1,5 +1,8 @@
 #Dependencias
 node_modules
 
+# Carpetas
+/public
+
 # Variables de Entorno
 .env
